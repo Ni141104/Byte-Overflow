@@ -1,0 +1,10 @@
+.loginTab {
+    background-color: brown;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
