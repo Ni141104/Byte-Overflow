@@ -36,7 +36,7 @@ function App() {
         <Navbar />
       </div>
       <div className='filter'>
-        <Filter filterData={filterData} category={category} setCategory={setCategory} > 
+        <Filter filterData={filterData} category={category} setCategory={setCategory} >
 
         </Filter>
       </div>
