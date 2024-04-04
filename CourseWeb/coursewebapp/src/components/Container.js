@@ -7,17 +7,17 @@ function Container(props) {
     const [likedCourses, setLikedCourse] = useState([]);
 
     function getCourses() {
-         if( category === "All"){
+        if (category === "All") {
 
-             let allCourses = [];
-             Object.values(courses).forEach((courseCategory) => {
-                 Object.values(courseCategory).forEach((chapters) => {
-                     allCourses.push(chapters);
-                 })
-             })
-             return allCourses;
-         }
-        
+            let allCourses = [];
+            Object.values(courses).forEach((courseCategory) => {
+                Object.values(courseCategory).forEach((chapters) => {
+                    allCourses.push(chapters);
+                })
+            })
+            return allCourses;
+        }
+
 
         else {
             return courses[category];
